@@ -1,8 +1,99 @@
-.top-hd {
-    background-color: brown;
-    margin: 100px 50px 50px 100px;
+body {
+    margin: 0%;
+    background-color: rgb(213, 212, 212);
+    background-image: url(../images/White-Backgrounds-10.jpg);
+    color: #777777;
+   
 }
 
-.bar-name {
-    color: blue;
+#header {
+    margin: 0%;
+    background-color: #ffffff;
+    border-bottom-style: solid;
+    border-bottom-color: #cccccc;
+    border-bottom-width: 2px;
+    height: 75px;  
+}
+h1 {
+    color: #4aaaa5
+}
+
+#namecontainer {
+    width: 960px;
+    margin: auto;
+}
+
+#nameBox {
+    height: 65px;
+    float: left;
+    background-color: #4aaaa5;
+    color: #ffffff;
+    font-size: 40px;
+    padding: 10px 20px 0px 20px;
+}
+
+#linkBox{
+    height: 75px;
+    float: right;
+    padding-top: 25px;
+    font-size: large;
+}
+
+a {
+    text-decoration: none;   
+}
+
+a:link {
+    color: #777777;
+}
+
+a:visited {
+    color: #777777;
+}
+
+a:hover {
+    color: #4aaaa5;
+}
+
+#container {
+    height: 500px;
+    width: 960px;
+    margin: auto;
+    margin-top: 10px;
+    background-color: #ffffff;
+    padding: 20px;
+}
+
+#content {
+    border-top-style: solid;
+    border-top-color: #cccccc;
+    border-top-width: 2px;
+    padding: 10px;
+}
+
+img {
+    height: 200px;
+    width: 200px;
+    float: left;
+    margin: 20px;
+}
+
+.text {
+    float: right;
+}
+
+#footer {
+    position: fixed;
+    height: 50px;
+    left: 0;
+    bottom: 0;
+    width: 100%;
+    background-color: #666666;
+    color: #ffffff;
+    text-align: center;     
+    font-size: small;
+    border-top-style: solid;
+    border-top-color: #4aaaa5;
+    border-top-width: 5px;
+    
 }
