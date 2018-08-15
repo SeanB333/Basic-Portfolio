@@ -1,6 +1,6 @@
 body {
     margin: 0%;
-    background-image: linear-gradient(rgba(100, 100, 100, 0.357), rgba(127, 170, 162, 0.323));
+    background-image: linear-gradient(rgb(187, 218, 210), white);
     background-repeat: no-repeat;
     background-size: auto;
     background-attachment: fixed;
@@ -20,11 +20,6 @@ h1 {
     color: #4aaaa5;
     font-size: 40px;
     
-}
-
-p {
-    font-size: 18px;
-    line-height: 40px;
 }
 
 #namecontainer {
@@ -76,7 +71,7 @@ a:hover {
 }
 
 #container {
-    height: 500px;
+    height: 520px;
     width: 960px;
     margin: auto;
     margin-top: 10px;
@@ -91,18 +86,26 @@ a:hover {
     padding: 10px;
 }
 
-img {
+#box {
     height: 200px;
     width: 200px;
     float: left;
-    margin: 20px;
+    margin: 20px 50px;
+    background-color: #777777;
+    position: relative;
+    transition: 0.3s;
 }
 
 .imgBox {
-    height: 300px;
-    width: 300px;
+    height: 35px;
+    width: 200px;
+    color: #ffffff;
     background-color: #4aaaa5;
-   
+    margin: 120px 0px 0px 0px;
+    position: absolute;
+    text-align: center;
+    padding: 10px 0px 0px 0px;
+    opacity: 0.6;
 }
 
 .text {

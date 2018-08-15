@@ -1,3 +1,13 @@
+body {
+    margin: 0%;
+    background-image: linear-gradient(rgb(184, 184, 184), rgba(130, 219, 200, 0.351));
+    background-repeat: no-repeat;
+    background-size: auto;
+    background-attachment: fixed;
+    color: #777777;
+   
+}
+
 input[type=text], select {
     width: 100%;
     padding: 12px 20px;
